@@ -12,6 +12,8 @@ A simple network monitoring daemon to monitor your hardware from an external sou
 
 https://github.com/darthsebulba04/hassio-snmpd
 
-## Ideas
+## SCP-COPY
 
-Backup/restore snapshots to BackBlaze B2
+Addon that copies the last snapshot to a remote path via scp.
+
+https://github.com/darthsebulba04/hassio-scp-copy
