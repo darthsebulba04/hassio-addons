@@ -14,6 +14,6 @@ https://github.com/darthsebulba04/hassio-snmpd
 
 ## SCP-COPY
 
-Addon that copies the last snapshot to a remote path via scp.
+Addon that copies the last days worth of snapshots to a remote path via scp.
 
 https://github.com/darthsebulba04/hassio-scp-copy
