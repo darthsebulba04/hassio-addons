@@ -1,0 +1,22 @@
+{
+  "name": "SCP Copy",
+  "version": "1.0.0",
+  "slug": "scp-copy",
+  "description": "Copies snapshots to a remote location via SCP",
+  "arch": ["armhf", "armv7", "amd64", "i386"],
+  "startup": "once",
+  "boot": "manual",
+  "map": ["config","backup"],
+  "options": {
+    "private_key": "/config/.ssh/id_rsa",
+    "remote_host": "",
+    "remote_user": "",
+    "remote_path": ""
+  },
+  "schema": {
+    "private_key": "str",
+    "remote_host": "str",
+    "remote_user": "str",
+    "remote_path": "str"
+  }
+}
