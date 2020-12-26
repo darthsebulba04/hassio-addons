@@ -1,7 +1,7 @@
 {
   "name": "SCP Copy",
-  "version": "1.0.0",
-  "slug": "scp-copy",
+  "version": "1.0.1",
+  "slug": "scp_copy",
   "description": "Copies snapshots to a remote location via SCP",
   "arch": ["armhf", "armv7", "amd64", "i386"],
   "startup": "once",
