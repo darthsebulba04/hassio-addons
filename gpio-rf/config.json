@@ -4,8 +4,7 @@
   "slug": "gpio-rf",
   "description": "Reads the RF codes from a generic RF receiver wired to the GPIO pins on a Raspberry Pi",
   "arch": ["armv7"],
-  "startup": "before",
-  "boot": "auto",
+  "boot": "manual",
   "full_access": "true",
   "options": {
     "gpio": 17
