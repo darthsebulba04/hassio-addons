@@ -20,4 +20,4 @@ bashio::log.info `curl --no-progress-meter -X POST -H "Authorization: Bearer ${S
 bashio::log.info "Posted event"
 
 
-bashio::log.info "Done  `date`"
+bashio::log.info "Done"
