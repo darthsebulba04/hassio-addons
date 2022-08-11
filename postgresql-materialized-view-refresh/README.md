@@ -1,0 +1,1 @@
+# Addin to automatically refresh materailized views in PostgreSQL
