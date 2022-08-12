@@ -1,9 +1,8 @@
 name: PostgreSQL Materialized View Refresh tool
-version: 0.1.0
+version: 0.1.1
 slug: postgresql_materialized_view_refresh_tool
 description: Refresh PostgreSQL materialized views on a regular basis
 url: https://github.com/jfurtner/hassio-addons/\postgresql-materialized-view-refresh
-codenotary: jamie@furtner.ca
 init: false
 arch:
   - aarch64
@@ -12,13 +11,13 @@ arch:
   - armv7
   - i386
 options:
-#  log_level: info
+  log_level: info
   database_connection_url: postgresql://homeassistant:PASSWORD_GOES_here@77b2833f-timescaledb/homeassistant
   views:
     - name: fan_on_time_since_filter_change
       refresh_frequency_minutes: 5 # time in minutes
 schema:
-#  log_level: list(trace|debug|info|notice|warning|error|fatal)
+  log_level: list(trace|debug|info|notice|warning|error|fatal)
   database_connection_url: str
   views:
     - name: str

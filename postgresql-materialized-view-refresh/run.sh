@@ -1,5 +1,8 @@
 #!/usr/bin/env bashio
 
+LOG_LEVEL=$(bashio::config 'log_level' 'info')
+bashio::log.level $LOG_LEVEL
+
 bashio::log.debug "get database_connection_url"
 #postgresql://homeassistant:PASSWORD_GOES_here@77b2833f-timescaledb/homeassistant
 DBURL=$(bashio::config 'database_connection_url')
