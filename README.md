@@ -17,3 +17,5 @@ https://github.com/darthsebulba04/hassio-snmpd
 Addon that copies the last days worth of snapshots to a remote path via scp.
 
 https://github.com/darthsebulba04/hassio-scp-copy
+** Merged SCP-COPY into https://github.com/jfurtner/hass_custom_addin_repository,
+original seems abandoned and needs fixes**
